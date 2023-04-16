@@ -17,7 +17,7 @@ This Python script helps you remove extremely similar keywords from a list using
 2. Run the script:
 
 ```bash
-python keyword_deduplication.py
+python deduplication.py
 ```
 
 3. Follow the prompts to set the similarity threshold and output file name.
