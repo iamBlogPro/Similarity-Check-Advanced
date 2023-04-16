@@ -31,7 +31,7 @@ python deduplication.py
 
 1. **Reads keywords from a CSV file** - The script reads your list of keywords from a CSV file, storing the keywords in a list.
 
-2. **Generate keyword embeddings** - The script leverages the ```SentenceTransformer``` library to create embeddings for each keyword. Sentence transformers are pre-trained neural network models that can convert text into numerical vectors (embeddings) that capture semantic information. The script uses the ```paraphrase-distilroberta-base-v1```" model for this purpose.
+2. **Generate keyword embeddings** - The script leverages the ```SentenceTransformer``` library to create embeddings for each keyword. Sentence transformers are pre-trained neural network models that can convert text into numerical vectors (embeddings) that capture semantic information. The script uses the ```paraphrase-distilroberta-base-v1``` model for this purpose.
 
 3. **Compute similarity matrix** - The script calculates a similarity matrix for the keyword embeddings using the cosine similarity metric. Cosine similarity values range from 0 to 1. In this case, 0 would mean not similar at all - 1 would mean extremely similar. Try staying in the higher ranges.
 
@@ -42,4 +42,5 @@ python deduplication.py
 6. **Generate output files** - The script creates two output files for you:
 
 ```unique_keywords.csv``` - Contains the list of unique keywords after removing similar ones.
+
 ```keywords_output.xlsx``` (or the name you entered) - An Excel file with color-coded information on removed keywords, retained keywords, and their similarity. Removed keywords are highlighted in yellow.
