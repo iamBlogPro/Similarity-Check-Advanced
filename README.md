@@ -41,6 +41,6 @@ python deduplication.py
 
 6. **Generate output files** - The script creates two output files for you:
 
-```unique_keywords.csv``` - Contains the list of unique keywords after removing similar ones.
+- ```unique_keywords.csv``` - Contains the list of unique keywords after removing similar ones.
 
-```keywords_output.xlsx``` (or the name you entered) - An Excel file with color-coded information on removed keywords, retained keywords, and their similarity. Removed keywords are highlighted in yellow.
+- ```keywords_output.xlsx``` (or the name you entered) - An Excel file with color-coded information on removed keywords, retained keywords, and their similarity. Removed keywords are highlighted in yellow.
