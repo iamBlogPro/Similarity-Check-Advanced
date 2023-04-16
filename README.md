@@ -18,3 +18,11 @@ This Python script helps you remove extremely similar keywords from a list using
 
 ```bash
 python keyword_deduplication.py
+```
+
+3. Follow the prompts to set the similarity threshold and output file name.
+
+4. The script will generate two output files:
+    - `unique_keywords.csv`: A list of unique keywords after removing similar ones.
+    - `keywords_output.xlsx`: An Excel file with color-coded information on removed keywords, retained keywords, and their similarity.
+
