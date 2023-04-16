@@ -1,5 +1,5 @@
 # Similarity-Check-Advanced
-Checks for keyword similarity - then generates unique keywords and a spreadsheet with similar keywords and similarity
+Checks for keyword similarity - then generates unique keywords and a color-coded spreadsheet with removed keywords, retained keywords and similarity.
 
 # Keyword De-duplication with Agglomerative Clustering
 
